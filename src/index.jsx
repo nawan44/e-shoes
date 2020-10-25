@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-// import App from './App';
+import App from './App';
 
 import Header from './component/header.jsx';
 import Carousely from './component/carousel.jsx';
@@ -13,12 +13,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Navmenu/>
-    <Header/>
+    <App />
+    <Navmenu />
+    <Header />
     <Carousely />
-    <Content/>
-    <Footer/>
+    <Content />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
